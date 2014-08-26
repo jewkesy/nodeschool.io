@@ -5,7 +5,7 @@ var worker = function(collection) {
     // do work; return stuff
 
     return _.sortBy(collection, function(item){
-      return -item.quantity;
+      return -item.quantity;  //use minus since we are only dealing with numbers
     })
 };
 
